@@ -1,0 +1,76 @@
+<?php
+
+namespace fpo\BackendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Institucion
+ *
+ * @ORM\Table(name="institucion")
+ * @ORM\Entity
+ */
+class Institucion
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="descripcion", type="string", length=200, nullable=false)
+     */
+    private $descripcion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_modificacion", type="datetimetz", nullable=true)
+     */
+    private $fechaModificacion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_creacion", type="datetimetz", nullable=false)
+     */
+    private $fechaCreacion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="direccion", type="string", length=200, nullable=true)
+     */
+    private $direccion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telefonolocal", type="string", length=10, nullable=false)
+     */
+    private $telefonolocal;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="celular", type="string", length=10, nullable=true)
+     */
+    private $celular;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="estado", type="string", length=1, nullable=false)
+     */
+    private $estado;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="codigo", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="institucion_codigo_seq", allocationSize=1, initialValue=1)
+     */
+    private $codigo;
+
+
+}
+

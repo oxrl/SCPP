@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="23dc5fa5-1dbb-4a91-bd7c-d645dace2bed" name="Default" comment="" />
+    <ignored path="SCPPv4.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SCPPv4" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="29" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/AdminController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="42" selection-start="727" selection-end="727" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="1122">
+              <folding>
+                <element signature="e#410#449#1" expanded="true" />
+                <element signature="e#1957#1994#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grupo.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/crud/grupo.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="226" column="138" selection-start="0" selection-end="22876" vertical-scroll-proportion="-8.5" vertical-offset="3621" max-vertical-offset="8517">
+              <folding>
+                <element signature="e#12#33#0" expanded="false" />
+                <element signature="e#3674#3711#0" expanded="false" />
+                <element signature="e#3809#3858#0" expanded="false" />
+                <element signature="e#3969#4021#0" expanded="false" />
+                <element signature="e#5052#5075#0" expanded="false" />
+                <element signature="e#5171#5199#0" expanded="false" />
+                <element signature="e#7835#7856#0" expanded="false" />
+                <element signature="e#10570#10592#0" expanded="false" />
+                <element signature="e#13638#13659#0" expanded="false" />
+                <element signature="e#13807#13830#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="estudiante.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/crud/estudiante.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="16" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="8874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="3" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MantenimientoController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/MantenimientoController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="0" selection-start="5424" selection-end="5424" vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="3451">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.twig.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/public/js/script.twig.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="158" column="27" selection-start="4488" selection-end="4488" vertical-scroll-proportion="0.21839081" vertical-offset="2534" max-vertical-offset="3434">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/Resources/views/baseLogin.html.twig" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/login/login.html.twig" />
+        <option value="$PROJECT_DIR$/web/public/pages/tables/data.html" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/report.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Entity/Usuario.php" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Controller/ReportController.php" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/public/css/style.css" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/public/js/script.js" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/principal.html.twig" />
+        <option value="$PROJECT_DIR$/web/public/js/script.js" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/report/reportGeneral.html.twig" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/report/reportTotalizados.html.twig" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/report/reportVigentes.html.twig" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/crud/grupo.html.twig" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Controller/MantenimientoController.php" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/crud/estudiante.html.twig" />
+        <option value="$PROJECT_DIR$/web/public/js/script.twig.js" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/Default/index.html.twig" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1596" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SCPPv4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestLogin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SCPPv4\src\fpo\BackendBundle\Resources\views\crud" />
+      <recent name="C:\xampp\htdocs\SCPPv4\web\public\js" />
+      <recent name="C:\xampp\htdocs\SCPPv4\src\fpo\BackendBundle\Resources\views\ajax" />
+      <recent name="C:\xampp\htdocs\SCPPv4\src\fpo\BackendBundle\Controller" />
+      <recent name="C:\xampp\htdocs\SCPPv4\src\fpo\BackendBundle\Resources\views\report" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SCPPv4\web\public\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23dc5fa5-1dbb-4a91-bd7c-d645dace2bed" name="Default" comment="" />
+      <created>1450130918883</created>
+      <updated>1450130918883</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="0" width="1596" height="867" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13197279" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Symfony2" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2119636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="54" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/login/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3774" selection-end="3788" vertical-scroll-proportion="0.0" vertical-offset="1357" max-vertical-offset="1955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/build/less/skins/skin-red.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="28" selection-end="28" vertical-scroll-proportion="0.050974514" vertical-offset="0" max-vertical-offset="1037" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/documentation/build/include/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/dist/js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3587" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstrap/font-awesome/4.1.0/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstrap/fonts/fonts.googleapis.com.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/ace.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/pages/examples/assets/css/ace.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/jquery.1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/jquery1x.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/jquery.mobile.custom.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="451" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppCache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="464" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseLogin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="3650" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1632" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/bootstrap/font-awesome/4.2.0/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9780" selection-start="9942" selection-end="9942" vertical-scroll-proportion="0.08838821" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="104" selection-start="766" selection-end="766" vertical-scroll-proportion="0.25976232" vertical-offset="34" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/pages/tables/data.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="26" selection-start="85" selection-end="85" vertical-scroll-proportion="-37.30747" vertical-offset="25549" max-vertical-offset="26333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/pages/tables/simple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="709" column="9" selection-start="33574" selection-end="36176" vertical-scroll-proportion="0.105426356" vertical-offset="11985" max-vertical-offset="16337" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="1" selection-start="244" selection-end="244" vertical-scroll-proportion="0.23977433" vertical-offset="0" max-vertical-offset="709" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Entity/Grupos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="831" selection-end="831" vertical-scroll-proportion="0.02489019" vertical-offset="663" max-vertical-offset="2822" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/public/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="709" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="889" selection-end="889" vertical-scroll-proportion="0.49048316" vertical-offset="5" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="9" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5994358" vertical-offset="0" max-vertical-offset="1326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/principal.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="338" selection-end="338" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/ReportController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="29" selection-start="1192" selection-end="1192" vertical-scroll-proportion="-24.192308" vertical-offset="0" max-vertical-offset="1598" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/report/reportTotalizados.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="17" selection-start="5615" selection-end="5615" vertical-scroll-proportion="0.79970545" vertical-offset="1531" max-vertical-offset="7140" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/report/reportVigentes.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="46" selection-start="4904" selection-end="4904" vertical-scroll-proportion="0.22533137" vertical-offset="1717" max-vertical-offset="7208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/BackendBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Entity/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="382" column="25" selection-start="6537" selection-end="6542" vertical-scroll-proportion="0.39753467" vertical-offset="6236" max-vertical-offset="7089">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/DependencyInjection/BackendExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="688" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/login/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/report/reportGeneral.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7021" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/MantenimientoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="0" selection-start="5424" selection-end="5424" vertical-scroll-proportion="0.0" vertical-offset="2312" max-vertical-offset="3451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/crud/estudiante.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="16" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="8874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="709">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="22" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.38504937" vertical-offset="764" max-vertical-offset="1496">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="6" selection-start="178" selection-end="178" vertical-scroll-proportion="0.2157969" vertical-offset="0" max-vertical-offset="709">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/crud/grupo.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="138" selection-start="0" selection-end="22876" vertical-scroll-proportion="-8.5" vertical-offset="3621" max-vertical-offset="8517">
+          <folding>
+            <element signature="e#12#33#0" expanded="false" />
+            <element signature="e#3674#3711#0" expanded="false" />
+            <element signature="e#3809#3858#0" expanded="false" />
+            <element signature="e#3969#4021#0" expanded="false" />
+            <element signature="e#5052#5075#0" expanded="false" />
+            <element signature="e#5171#5199#0" expanded="false" />
+            <element signature="e#7835#7856#0" expanded="false" />
+            <element signature="e#10570#10592#0" expanded="false" />
+            <element signature="e#13638#13659#0" expanded="false" />
+            <element signature="e#13807#13830#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="42" selection-start="727" selection-end="727" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="1122">
+          <folding>
+            <element signature="e#410#449#1" expanded="true" />
+            <element signature="e#1957#1994#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fpo/BackendBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="25" selection-start="8604" selection-end="8604" vertical-scroll-proportion="2.334936" vertical-offset="1705" max-vertical-offset="5661">
+          <folding>
+            <element signature="e#12#33#0" expanded="true" />
+            <element signature="e#4198#4235#0" expanded="true" />
+            <element signature="e#4333#4382#0" expanded="true" />
+            <element signature="e#4493#4545#0" expanded="true" />
+            <element signature="e#5606#5629#0" expanded="true" />
+            <element signature="e#5725#5753#0" expanded="true" />
+            <element signature="e#10222#10240#0" expanded="true" />
+            <element signature="e#10791#10809#0" expanded="true" />
+            <element signature="e#11366#11384#0" expanded="true" />
+            <element signature="e#11940#11958#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/script.twig.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="27" selection-start="4488" selection-end="4488" vertical-scroll-proportion="0.21839081" vertical-offset="2534" max-vertical-offset="3434">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

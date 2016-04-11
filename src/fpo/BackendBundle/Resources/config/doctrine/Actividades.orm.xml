@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="fpo\BackendBundle\Entity\Actividades" table="actividades">
+    <id name="codigo" type="integer" column="codigo">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="actividades_codigo_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="diagnostico" type="integer" column="diagnostico" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="profilaxis" type="integer" column="profilaxis" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="operatoria" type="integer" column="operatoria" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="endodoncia" type="integer" column="endodoncia" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="exodoncia" type="integer" column="exodoncia" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="rx" type="integer" column="rx" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="sellantes" type="integer" column="sellantes" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="fluorizacion" type="integer" column="fluorizacion" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="periodoncia" type="integer" column="periodoncia" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="fechaModificacion" type="datetimetz" column="fecha_modificacion" nullable="true"/>
+    <field name="fechaCreacion" type="datetimetz" column="fecha_creacion" nullable="false"/>
+    <field name="estado" type="string" column="estado" length="1" nullable="false">
+      <options>
+        <option name="fixed">1</option>
+      </options>
+    </field>
+    <field name="numpacientesh" type="integer" column="numpacientesh" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="numpacientesm" type="integer" column="numpacientesm" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="charlas" type="integer" column="charlas" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

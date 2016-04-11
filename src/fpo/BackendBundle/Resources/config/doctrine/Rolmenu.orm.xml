@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="fpo\BackendBundle\Entity\Rolmenu" table="rolmenu">
+    <indexes>
+      <index name="fk_rolmenu_menu1" columns="menu_id"/>
+      <index name="fk_rolmenu_rol" columns="rol_id"/>
+    </indexes>
+    <id name="id" type="integer" column="id">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="rolmenu_id_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <many-to-one field="menu" target-entity="Menu" fetch="LAZY">
+      <join-columns>
+        <join-column name="menu_id" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="rol" target-entity="Rol" fetch="LAZY">
+      <join-columns>
+        <join-column name="rol_id" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

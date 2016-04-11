@@ -1,0 +1,109 @@
+<?php
+
+namespace fpo\BackendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Registro
+ *
+ * @ORM\Table(name="registro", uniqueConstraints={@ORM\UniqueConstraint(name="u_actividades_actividades", columns={"actividades"})}, indexes={@ORM\Index(name="IDX_397CA85BF751F7C3", columns={"institucion"}), @ORM\Index(name="IDX_397CA85B7BF39BE0", columns={"cedula"}), @ORM\Index(name="IDX_397CA85B8C0E9BD3", columns={"grupo"})})
+ * @ORM\Entity
+ */
+class Registro
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="horasacreditadas", type="integer", nullable=true)
+     */
+    private $horasacreditadas;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="estado", type="string", length=1, nullable=false)
+     */
+    private $estado;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_inicio", type="date", nullable=true)
+     */
+    private $fechaInicio;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_fin", type="date", nullable=true)
+     */
+    private $fechaFin;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_modificacion", type="datetimetz", nullable=true)
+     */
+    private $fechaModificacion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_creacion", type="datetimetz", nullable=false)
+     */
+    private $fechaCreacion;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="registro_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \fpo\BackendBundle\Entity\Grupos
+     *
+     * @ORM\ManyToOne(targetEntity="fpo\BackendBundle\Entity\Grupos")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="grupo", referencedColumnName="id")
+     * })
+     */
+    private $grupo;
+
+    /**
+     * @var \fpo\BackendBundle\Entity\Actividades
+     *
+     * @ORM\ManyToOne(targetEntity="fpo\BackendBundle\Entity\Actividades")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="actividades", referencedColumnName="codigo")
+     * })
+     */
+    private $actividades;
+
+    /**
+     * @var \fpo\BackendBundle\Entity\Estudiante
+     *
+     * @ORM\ManyToOne(targetEntity="fpo\BackendBundle\Entity\Estudiante")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="cedula", referencedColumnName="cedula")
+     * })
+     */
+    private $cedula;
+
+    /**
+     * @var \fpo\BackendBundle\Entity\Institucion
+     *
+     * @ORM\ManyToOne(targetEntity="fpo\BackendBundle\Entity\Institucion")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="institucion", referencedColumnName="codigo")
+     * })
+     */
+    private $institucion;
+
+
+}
+

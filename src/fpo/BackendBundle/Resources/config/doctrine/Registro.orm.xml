@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="fpo\BackendBundle\Entity\Registro" table="registro">
+    <indexes>
+      <index name="IDX_397CA85BF751F7C3" columns="institucion"/>
+      <index name="IDX_397CA85B7BF39BE0" columns="cedula"/>
+      <index name="IDX_397CA85B8C0E9BD3" columns="grupo"/>
+    </indexes>
+    <unique-constraints>
+      <unique-constraint name="u_actividades_actividades" columns="actividades"/>
+    </unique-constraints>
+    <id name="id" type="integer" column="id">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="registro_id_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="horasacreditadas" type="integer" column="horasacreditadas" nullable="true">
+      <options>
+        <option name="unsigned"/>
+      </options>
+    </field>
+    <field name="estado" type="string" column="estado" length="1" nullable="false">
+      <options>
+        <option name="fixed">1</option>
+      </options>
+    </field>
+    <field name="fechaInicio" type="date" column="fecha_inicio" nullable="true"/>
+    <field name="fechaFin" type="date" column="fecha_fin" nullable="true"/>
+    <field name="fechaModificacion" type="datetimetz" column="fecha_modificacion" nullable="true"/>
+    <field name="fechaCreacion" type="datetimetz" column="fecha_creacion" nullable="false"/>
+    <many-to-one field="grupo" target-entity="Grupos" fetch="LAZY">
+      <join-columns>
+        <join-column name="grupo" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="actividades" target-entity="Actividades" fetch="LAZY">
+      <join-columns>
+        <join-column name="actividades" referenced-column-name="codigo"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="cedula" target-entity="Estudiante" fetch="LAZY">
+      <join-columns>
+        <join-column name="cedula" referenced-column-name="cedula"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="institucion" target-entity="Institucion" fetch="LAZY">
+      <join-columns>
+        <join-column name="institucion" referenced-column-name="codigo"/>
+      </join-columns>
+    </many-to-one>
+  </entity>
+</doctrine-mapping>

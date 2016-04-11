@@ -1,0 +1,114 @@
+<?php
+
+namespace fpo\BackendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Usuario
+ *
+ * @ORM\Table(name="usuario", uniqueConstraints={@ORM\UniqueConstraint(name="USUARIO_UNIQUE", columns={"usuario"})}, indexes={@ORM\Index(name="fk_usuario_rol1", columns={"rol_id"})})
+ * @ORM\Entity
+ */
+class Usuario
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="usuario", type="string", length=30, nullable=false)
+     */
+    private $usuario;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="clave", type="string", length=45, nullable=false)
+     */
+    private $clave;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="email", type="string", length=60, nullable=false)
+     */
+    private $email;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="estado", type="boolean", nullable=true)
+     */
+    private $estado;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="usuariocreacion", type="string", length=25, nullable=false)
+     */
+    private $usuariocreacion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fechacreacion", type="datetime", nullable=false)
+     */
+    private $fechacreacion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fechamodificacion", type="datetime", nullable=true)
+     */
+    private $fechamodificacion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="foto", type="string", nullable=true)
+     */
+    private $foto;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombres", type="string", nullable=false)
+     */
+    private $nombres;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="apellidos", type="string", nullable=false)
+     */
+    private $apellidos;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="telefono", type="string", nullable=false)
+     */
+    private $telefono;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="usuario_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \fpo\BackendBundle\Entity\Rol
+     *
+     * @ORM\ManyToOne(targetEntity="fpo\BackendBundle\Entity\Rol")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="rol_id", referencedColumnName="id")
+     * })
+     */
+    private $rol;
+
+
+}
+

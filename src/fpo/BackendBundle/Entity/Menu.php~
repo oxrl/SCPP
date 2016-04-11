@@ -1,0 +1,79 @@
+<?php
+
+namespace fpo\BackendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Menu
+ *
+ * @ORM\Table(name="menu", indexes={@ORM\Index(name="fk_menu_menu1", columns={"menu_id"})})
+ * @ORM\Entity
+ */
+class Menu
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="nivel", type="integer", nullable=false)
+     */
+    private $nivel;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="orden", type="integer", nullable=false)
+     */
+    private $orden;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombre", type="string", length=80, nullable=false)
+     */
+    private $nombre;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="url", type="string", length=120, nullable=true)
+     */
+    private $url;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="icono", type="string", length=30, nullable=true)
+     */
+    private $icono;
+
+    /**
+     * @var boolean
+     *
+     * @ORM\Column(name="estado", type="boolean", nullable=true)
+     */
+    private $estado;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="menu_id_seq", allocationSize=1, initialValue=1)
+     */
+    private $id;
+
+    /**
+     * @var \fpo\BackendBundle\Entity\Menu
+     *
+     * @ORM\ManyToOne(targetEntity="fpo\BackendBundle\Entity\Menu")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="menu_id", referencedColumnName="id")
+     * })
+     */
+    private $menu;
+
+
+}
+

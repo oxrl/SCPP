@@ -1,0 +1,132 @@
+<?php
+
+namespace fpo\BackendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Actividades
+ *
+ * @ORM\Table(name="actividades")
+ * @ORM\Entity
+ */
+class Actividades
+{
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="diagnostico", type="integer", nullable=true)
+     */
+    private $diagnostico;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="profilaxis", type="integer", nullable=true)
+     */
+    private $profilaxis;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="operatoria", type="integer", nullable=true)
+     */
+    private $operatoria;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="endodoncia", type="integer", nullable=true)
+     */
+    private $endodoncia;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="exodoncia", type="integer", nullable=true)
+     */
+    private $exodoncia;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="rx", type="integer", nullable=true)
+     */
+    private $rx;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="sellantes", type="integer", nullable=true)
+     */
+    private $sellantes;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="fluorizacion", type="integer", nullable=true)
+     */
+    private $fluorizacion;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="periodoncia", type="integer", nullable=true)
+     */
+    private $periodoncia;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_modificacion", type="datetimetz", nullable=true)
+     */
+    private $fechaModificacion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_creacion", type="datetimetz", nullable=false)
+     */
+    private $fechaCreacion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="estado", type="string", length=1, nullable=false)
+     */
+    private $estado;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="numpacientesh", type="integer", nullable=true)
+     */
+    private $numpacientesh;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="numpacientesm", type="integer", nullable=true)
+     */
+    private $numpacientesm;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="charlas", type="integer", nullable=true)
+     */
+    private $charlas;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="codigo", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="actividades_codigo_seq", allocationSize=1, initialValue=1)
+     */
+    private $codigo;
+
+
+}
+

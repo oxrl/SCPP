@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>{% block title %}Administrador del Sistema de Clientes{% endblock %}</title>
+    {% block stylesheets %}
+        <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" type="text/css" rel="stylesheet" />
+        <link href="{{ asset('public/css/bootstrap.min.css') }}" type="text/css" rel="stylesheet" />
+        <link href="{{ asset('public/bootstrap/font-awesome/4.2.0/css/font-awesome.min.css') }}" type="text/css" rel="stylesheet" />
+        <link href="{{ asset('public/bootstrap/fonts/fonts.googleapis.com.css') }}" type="text/css" rel="stylesheet" />
+        <link href="{{ asset('public/css/ace.min.css') }}" type="text/css" rel="stylesheet" />
+        <!--[if lte IE 9]>
+        <link rel="stylesheet" href="{{ asset('public/css/ace-part2.min.css') }}" />
+        <![endif]-->
+        <link href="{{ asset('public/css/ace-rtl.min.css') }}" type="text/css" rel="stylesheet" />
+        <!--[if lte IE 9]>
+        <link rel="stylesheet" href="{{ asset('public/css/ace-ie.min.css') }}" />
+        <![endif]-->
+    {% endblock %}
+
+</head>
+<body class="login-layout">
+
+
+    {% block body %}{% endblock %}
+
+{% block javascripts %}
+    <!--[if lt IE 9]>
+    <script src="{{ asset('public/js/html5shiv.min.js') }}"></script>
+    <script src="{{ asset('public/js/respond.min.js') }}"></script>
+    <![endif]-->
+    <!--[if !IE]> -->
+    <script src="{{ asset('public/js/jquery.2.1.1.min.js') }}"></script>
+    <!-- <![endif]-->
+
+    <!--[if !IE]> -->
+    <script type="text/javascript">
+        window.jQuery || document.write("<script src='{{ asset('public/js/jquery.min.js') }}'>"+"<"+"/script>");
+        window.jQuery || document.write("<script src='{{ asset('public/js/jquery1x.min.js') }}'>"+"<"+"/script>");
+    </script>
+    <!-- <![endif]-->
+
+    <script type="text/javascript">
+        if('ontouchstart' in document.documentElement) document.write("<script src='{{ asset('public/js/jquery.mobile.custom.min.js') }}'>"+"<"+"/script>");
+    </script>
+
+    <script type="text/javascript">
+       jQuery(function($) {
+            $(document).on('click', '.toolbar a[data-target]', function(e) {
+                e.preventDefault();
+                var target = $(this).data('target');
+                $('.widget-box.visible').removeClass('visible');//hide others
+                $(target).addClass('visible');//show target
+            });
+        });
+
+
+
+        //you don't need this, just used for changing background
+        jQuery(function($) {
+            $('#btn-login-dark').on('click', function(e) {
+                $('body').attr('class', 'login-layout');
+                $('#id-text2').attr('class', 'white');
+                $('#id-company-text').attr('class', 'blue');
+
+                e.preventDefault();
+            });
+            $('#btn-login-light').on('click', function(e) {
+                $('body').attr('class', 'login-layout light-login');
+                $('#id-text2').attr('class', 'grey');
+                $('#id-company-text').attr('class', 'blue');
+
+                e.preventDefault();
+            });
+            $('#btn-login-blur').on('click', function(e) {
+                $('body').attr('class', 'login-layout blur-login');
+                $('#id-text2').attr('class', 'white');
+                $('#id-company-text').attr('class', 'light-blue');
+
+                e.preventDefault();
+            });
+
+        });
+    </script>
+
+
+{% endblock %}
+</body>
+</html>

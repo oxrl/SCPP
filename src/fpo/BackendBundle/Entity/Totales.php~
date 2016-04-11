@@ -1,0 +1,174 @@
+<?php
+
+namespace fpo\BackendBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Totales
+ *
+ * @ORM\Table(name="totales")
+ * @ORM\Entity
+ */
+class Totales
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="nombres", type="string", nullable=false)
+     */
+    private $nombres;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="apellidos", type="string", nullable=false)
+     */
+    private $apellidos;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="grupo", type="string", nullable=false)
+     */
+    private $grupo;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tdiagnostico", type="integer", nullable=true)
+     */
+    private $tdiagnostico;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tprofilaxis", type="integer", nullable=true)
+     */
+    private $tprofilaxis;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="toperatoria", type="integer", nullable=true)
+     */
+    private $toperatoria;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tendodoncia", type="integer", nullable=true)
+     */
+    private $tendodoncia;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="texodoncia", type="integer", nullable=true)
+     */
+    private $texodoncia;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="trx", type="integer", nullable=true)
+     */
+    private $trx;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tsellantes", type="integer", nullable=true)
+     */
+    private $tsellantes;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tfluorizacion", type="integer", nullable=true)
+     */
+    private $tfluorizacion;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tperiodoncia", type="integer", nullable=true)
+     */
+    private $tperiodoncia;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_modificacion", type="datetimetz", nullable=false)
+     */
+    private $fechaModificacion;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="fecha_creacion", type="datetimetz", nullable=false)
+     */
+    private $fechaCreacion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="estado", type="string", length=1, nullable=false)
+     */
+    private $estado;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tnumpacientesh", type="integer", nullable=true)
+     */
+    private $tnumpacientesh;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tnumpacientesm", type="integer", nullable=true)
+     */
+    private $tnumpacientesm;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="thorasacreditadas", type="integer", nullable=true)
+     */
+    private $thorasacreditadas;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tactvidades", type="integer", nullable=true)
+     */
+    private $tactvidades;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="tpacientes", type="integer", nullable=true)
+     */
+    private $tpacientes;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="institucion", type="string", nullable=false)
+     */
+    private $institucion;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="cedula", type="string")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="SEQUENCE")
+     * @ORM\SequenceGenerator(sequenceName="totales_cedula_seq", allocationSize=1, initialValue=1)
+     */
+    private $cedula;
+
+
+}
+

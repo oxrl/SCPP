@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="fpo\BackendBundle\Entity\Grupos" table="grupos">
+    <unique-constraints>
+      <unique-constraint name="u_descripcion_grupos" columns="descripcion"/>
+    </unique-constraints>
+    <id name="id" type="integer" column="id">
+      <generator strategy="SEQUENCE"/>
+      <sequence-generator sequence-name="grupos_id_seq" allocation-size="1" initial-value="1"/>
+    </id>
+    <field name="descripcion" type="string" column="descripcion" length="30" nullable="false">
+      <options>
+        <option name="fixed"/>
+      </options>
+    </field>
+    <field name="fechaCreacion" type="datetimetz" column="fecha_creacion" nullable="false"/>
+    <field name="fechaModificacion" type="datetimetz" column="fecha_modificacion" nullable="true"/>
+    <field name="estado" type="string" column="estado" length="1" nullable="false">
+      <options>
+        <option name="fixed">1</option>
+      </options>
+    </field>
+  </entity>
+</doctrine-mapping>

@@ -1,0 +1,66 @@
+backend_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: BackendBundle:Default:index }
+
+backend_login:
+    path:     /admin/login
+    defaults: { _controller: BackendBundle:Admin:login }
+
+backend_admin:
+    path:     /admin
+    defaults: { _controller: BackendBundle:Admin:welcome }
+
+backend_admin_reportInternado_General:
+    path:     /admin/reportGeneral
+    defaults: { _controller: BackendBundle:Report:reportGeneral }
+
+backend_admin_reportInternado_vigentesTotalizados:
+    path:     /admin/reportVigentesTotalizados
+    defaults: { _controller: BackendBundle:Report:reportVigentesTotalizados }
+
+backend_admin_reportInternado_FinalizadosTotalizados:
+    path:     /admin/reportFinalizadosTotalizados
+    defaults: { _controller: BackendBundle:Report:reportFinalizadosTotalizados }
+
+###### Mantenimiento de grupos #####
+backend_admin_crudGrupo:
+    path:     /admin/crudGrupo
+    defaults: { _controller: BackendBundle:Mantenimiento:crudGrupo }
+
+backend_admin_crudAdd:
+    path:     /admin/crudGrupoAdd
+    defaults: { _controller: BackendBundle:Mantenimiento:crudGrupoAdd }
+
+backend_admin_crudRemov:
+    path:     /admin/crudGrupoRemov
+    defaults: { _controller: BackendBundle:Mantenimiento:crudGrupoRemov }
+
+backend_admin_crudAct:
+    path:     /admin/crudGrupoAct
+    defaults: { _controller: BackendBundle:Mantenimiento:crudGrupoAct }
+
+backend_admin_crudEdit:
+    path:     /admin/crudGrupoEdit
+    defaults: { _controller: BackendBundle:Mantenimiento:crudGrupoEdit }
+
+###### Mantenimiento de grupos #####
+
+backend_admin_crudEstudiante:
+    path:     /admin/crudEstudiante
+    defaults: { _controller: BackendBundle:Mantenimiento:crudEstudiante }
+
+backend_admin_crudEstudianteAdd:
+    path:     /admin/crudEstudianteAdd
+    defaults: { _controller: BackendBundle:Mantenimiento:crudEstudianteAdd }
+
+backend_admin_crudEstudianteEdit:
+    path:     /admin/crudEstudianteEdit
+    defaults: { _controller: BackendBundle:Mantenimiento:crudEstudianteEdit }
+
+backend_admin_crudEstudianteAct:
+    path:     /admin/crudEstudianteAct
+    defaults: { _controller: BackendBundle:Mantenimiento:crudEstudianteAct }
+
+backend_admin_crudEstudianteRemov:
+    path:     /admin/crudEstudianteRemov
+    defaults: { _controller: BackendBundle:Mantenimiento:crudEstudianteRemov }
